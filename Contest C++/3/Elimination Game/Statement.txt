@@ -1,0 +1,35 @@
+Problem Statement
+Elimination Game
+You are given a list 'arr' containing integers in the range from 1 to 'n', arranged in strictly increasing order. You need to perform the following algorithm on 'arr':
+
+Start from the left and remove the first number and every other number afterward until you reach the end of the list.
+Repeat the previous step, but this time from the right, remove the rightmost number and every other number from the remaining numbers.
+Keep repeating the steps, alternating left to right and right to left, until only one number remains in the list.
+
+Your task is to determine the last number that remains in the 'arr' list after applying the algorithm.
+
+Constraints:
+The value of 'n' is between 1 and 10^9 (1 <= n <= 10^9).
+
+Important Note: Ensure that you save your solution before progressing to the next question and before submitting your answer.
+
+Example
+
+INPUT
+9
+OUTPUT
+6
+
+Exercise-1
+
+Input : 
+10
+Output :
+8
+Exercise-2
+
+Input:
+100
+
+Output:
+54

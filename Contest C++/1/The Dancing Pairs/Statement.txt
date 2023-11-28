@@ -1,0 +1,60 @@
+Problem Statement
+The Dancing Pairs:
+In the bustling city, people were passionate about dance and rhythm. Every evening, the streets came alive with mesmerizing dance performances. The city was known for its unique dance routines, where each dancer had a designated partner.
+
+One day, a dance challenge was announced - dancers had to form pairs based on their heights. Each pair was to consist of a tall dancer and a short dancer. The dance committee wanted to ensure that every tall dancer had a partner who was not too short and vice versa.
+
+Your task is to help organize the dance pairs by designing a function that finds all the valid pairs of dancers. Write a function that accomplishes this task.
+
+if input is not number it should print -> Input string was not in a correct format
+if inputs are all equal, it should print -> No Valid pairs
+if input is single number. it should print -> No Valid pairs
+
+Time complexity should be O(n).
+Example:
+
+Input:
+heights = [160, 180, 155, 170, 165, 175]
+
+Output: 
+180 155
+175 160
+170 165
+Explanation: In this example, the valid dance pairs are (175, 155), (180, 160), and (170, 165), as each tall dancer is paired with an appropriate short dancer.
+
+heights: A list of integers representing the heights of the dancers.
+
+Each line in the output represent a valid pair, where a pair represents a valid dance pair. The first element of the pair is the height of the tall dancer, and the second element is the height of the short dancer.
+
+Note:
+A tall dancer is taller than the short dancer.
+Each dancer can only be part of one pair.
+
+Constraints:
+heights: 1 <= len(heights) <= 10^5)
+
+Exercise -1
+
+Input:
+a b c
+
+Output:
+Input string was not in a correct format
+Exercise -2
+
+Input:
+-170 160 -155 170 -160 175
+
+Output:
+175 -170
+170 -160
+160 -155
+Exercise -3
+
+Input:
+170 160 170 155 160 175 
+
+Output:
+175 155
+170 160
+170 160

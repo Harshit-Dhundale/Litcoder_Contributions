@@ -1,0 +1,63 @@
+Problem Statement
+Visitors to a Park
+You are given an array of integers representing the daily number of visitors to a park.
+
+You need to design a system that allows you to efficiently answer queries about the total number of visitors in a given range of days. Implement a function that preprocesses the array and then answers queries about the total number of visitors for a specific range of days.
+
+Time complexity should be O(n+q) where n is the number of visitors and q is the number of queries.
+
+Example:
+
+Input:
+
+visitors = [3, 7, 2, 8, 5, 9]
+queries = (1, 4), (0, 3), (2, 5)
+
+Output: 
+22
+20
+24
+Explanation:
+
+For the first query (1, 4), the total visitors are 7 + 2 + 8 + 5 = 22.
+For the second query (0, 3), the total visitors are 3 + 7 + 2 + 8 = 20.
+For the third query (2, 5), the total visitors are 2 + 8 + 5 + 9 = 24.
+
+Each line in the output represents the total visitor for the query.
+
+Constraints:
+visitors: 1 <= len(visitors) <= 10^5)
+
+Exercise - 1
+
+Input:
+3 7 2 8 5 9 //visitors array
+3 // number of queries
+1 4 //each tuple of query with start day and end day
+0 3
+2 5
+
+Output:
+22
+20
+24
+Exercise - 2
+
+5 10 20 30 40 50
+1
+6 8
+
+Output:
+0
+Exercise - 3
+
+Input:
+1 2 a
+1
+
+Output:
+Input is not in correct format or missing
+Previous
+Next
+ 
+Input
